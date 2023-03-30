@@ -2,6 +2,13 @@
 
 This Discord bot provides a prediction (positive/negative) for a comment from a user of Nyaa, a torrent file sharing platform. The prediction model is based on a neural network using the TensorFlow library.
 
+## Demo
+
+|||
+| ------------- | ------------- |
+| ![](https://i.imgur.com/ett4Man.png)  | ![](https://i.imgur.com/tRuLyyL.png)  |
+
+
 ## Usage
 The bot can be used by using the /comment command on Discord. This command retrieves a random comment from Nyaa and displays a prediction for that comment. The user can then validate or invalidate the prediction by clicking on the "Positive" or "Negative" buttons. This validation is used to train the prediction model and improve the results.
 
